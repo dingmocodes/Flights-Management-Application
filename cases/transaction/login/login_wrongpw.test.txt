@@ -1,0 +1,23 @@
+# Terminal 1's inputs:
+create test_user password123 100
+login test_user password123
+quit
+*
+
+# Expected Outcome:
+Created user test_user
+Logged in as test_user
+Goodbye
+*
+
+##################### Terminal #2: #####################
+
+# Terminal 2's inputs:
+login test_user wrong_password
+quit
+*
+
+# Expected Outcome:
+Login failed
+Goodbye
+*

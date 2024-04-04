@@ -1,0 +1,9 @@
+create user1 user1 100
+login dingmo user1
+quit
+*
+
+Created user user1
+Login failed
+Goodbye
+*
